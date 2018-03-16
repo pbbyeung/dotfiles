@@ -1,0 +1,18 @@
+alias reload="source ~/.bash_profile"
+alias _="sudo"
+alias rr="rm -rf"
+
+alias g="git"
+alias gs="git status"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias l="ls"
+alias la="ls -a"
+
+alias h="history"
+
+# Recursively remove .DS_Store files
+alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
